@@ -8,10 +8,16 @@ import './App.css';
 //   );
   const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-	<React.StrictMode>
-	  <PongGame />
-	</React.StrictMode>
-  );
+	<div>
+		<div>
+			<h1>React Pong</h1>
+			{/* MAKE THE REST OF TEH HEADER PART OR SOME SHITß */}
+		</div>
+		<div>
+			<PongGame />
+		</div>
+	</div>
+  ); 	 	
   
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
